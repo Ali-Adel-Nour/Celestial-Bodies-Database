@@ -19,7 +19,7 @@ CREATE TABLE galaxy (
     age NUMERIC,
     material TEXT,
     has_life BOOLEAN,
-    has_water BOOLEAN,
+    has_water BOOLEAN
 );
 
 CREATE TABLE star (
@@ -32,7 +32,7 @@ CREATE TABLE star (
     age NUMERIC,
     material TEXT,
     has_life BOOLEAN,
-    has_water BOOLEAN,
+    has_water BOOLEAN
 );
 
 CREATE TABLE planet (
@@ -57,7 +57,7 @@ CREATE TABLE moon (
     age NUMERIC,
     material TEXT,
     has_life BOOLEAN,
-    has_water BOOLEAN,
+    has_water BOOLEAN
 );
 
 CREATE TABLE more_info (
